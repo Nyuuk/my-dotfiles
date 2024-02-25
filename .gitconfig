@@ -1,0 +1,14 @@
+[init]
+        defaultBranc = main
+        defaultBranch = main
+[alias]
+        coa = !git add -A && git commit -m
+        logline = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        dev = checkout dev
+        st = status
+[user]
+        email = dnanfab@gmail.com
+        name = Adnan
+[core]
+        editor = code --wait
+
